@@ -1,0 +1,7 @@
+.content {
+	background: #ffd912;
+	padding: 10px;
+	float: right;
+	width: calc( 100% - 250px );
+	box-sizing: border-box;
+}

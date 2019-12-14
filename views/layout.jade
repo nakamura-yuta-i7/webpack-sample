@@ -1,7 +1,14 @@
 doctype html
 html
-  head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
-  body
-    block content
+	head
+		title= title
+		link(rel='stylesheet', href='/stylesheets/style.css')
+		script(src='/jquery/dist/jquery.min.js')
+		script(src='https://cdnjs.cloudflare.com/ajax/libs/react/0.14.2/react.min.js')
+		script(src='https://cdnjs.cloudflare.com/ajax/libs/react/0.14.2/react-dom.min.js')
+		script(src='https://cdnjs.cloudflare.com/ajax/libs/react/0.14.2/react-with-addons.min.js')
+		script(src='/init.js')
+		script(src='/app.js')
+		block pageScripts
+	body
+		block content

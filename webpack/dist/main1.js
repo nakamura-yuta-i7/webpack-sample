@@ -1,0 +1,1 @@
+webpackJsonp([0,2],[function(o,n){"use strict";console.log("main1"),console.log("koko"),$(function(){$("body").css("background","#efefef")})}]);
